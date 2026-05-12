@@ -1,0 +1,138 @@
+<div class="settings-page">
+
+  <!-- Header -->
+  <div class="header">
+
+    <h1>
+      Settings
+    </h1>
+
+    <p>
+      Manage your account & cycle
+    </p>
+
+  </div>
+
+  <!-- Profile Card -->
+  <div class="profile-card">
+
+    <div class="profile-icon">
+      👩
+    </div>
+
+    <div class="profile-info">
+
+      <h2>
+        My Account
+      </h2>
+
+      <p>
+        {{ userEmail }}
+      </p>
+
+    </div>
+
+  </div>
+
+  <!-- Settings Menu -->
+  <div class="settings-card">
+
+    <div
+      class="setting-row"
+      routerLink="/setup-cycle">
+
+      <div class="left">
+
+        <span class="icon">
+          🩸
+        </span>
+
+        <div>
+
+          <h3>
+            Cycle Settings
+          </h3>
+
+          <p>
+            Edit period details
+          </p>
+
+        </div>
+
+      </div>
+
+      <span>
+        →
+      </span>
+
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="setting-row">
+
+      <div class="left">
+
+        <span class="icon">
+          🔔
+        </span>
+
+        <div>
+
+          <h3>
+            Notifications
+          </h3>
+
+          <p>
+            Period reminder
+          </p>
+
+        </div>
+
+      </div>
+
+      <input type="checkbox">
+
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="setting-row">
+
+      <div class="left">
+
+        <span class="icon">
+          🌙
+        </span>
+
+        <div>
+
+          <h3>
+            Dark Mode
+          </h3>
+
+          <p>
+            Coming soon
+          </p>
+
+        </div>
+
+      </div>
+
+      <input type="checkbox"
+      disabled>
+
+    </div>
+
+  </div>
+
+  <!-- Logout -->
+  <button
+    class="logout-btn"
+    (click)="logout()">
+
+    Logout
+
+  </button>
+
+</div>

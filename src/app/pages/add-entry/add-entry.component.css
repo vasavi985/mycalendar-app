@@ -1,0 +1,71 @@
+.entry-page {
+  min-height: 100vh;
+  background: #f4f0fb;
+  padding: 20px;
+  padding-bottom: 120px;
+}
+
+.entry-header {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.card {
+  background: white;
+  border-radius: 25px;
+  padding: 25px;
+  margin-bottom: 20px;
+}
+
+.period-buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.start-btn,
+.end-btn {
+  flex: 1;
+  border: none;
+  padding: 18px;
+  border-radius: 30px;
+  font-size: 18px;
+}
+
+.start-btn {
+  background: #ffd2e5;
+}
+
+.end-btn {
+  background: #ece8ff;
+}
+
+.flow-levels {
+  display: flex;
+  gap: 15px;
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+textarea {
+  width: 100%;
+  border: none;
+  background: #f5f5f5;
+  border-radius: 20px;
+  padding: 15px;
+  height: 120px;
+}
+
+.symptoms {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.symptoms button {
+  border: none;
+  background: #ffe7ef;
+  border-radius: 30px;
+  padding: 12px 20px;
+}

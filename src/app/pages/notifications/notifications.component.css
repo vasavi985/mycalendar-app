@@ -1,0 +1,126 @@
+.notification-page {
+  min-height: 100vh;
+  background: #f8f3fc;
+  padding: 24px;
+}
+
+/* Header */
+
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.bell-circle {
+  width: 90px;
+  height: 90px;
+  background: white;
+  border-radius: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow:
+    0 5px 20px rgba(0,0,0,0.08);
+}
+
+.bell-circle i {
+  font-size: 40px;
+  color: #ff4f87;
+}
+
+.header h1 {
+  font-size: 40px;
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
+.header p {
+  color: #777;
+  font-size: 16px;
+}
+
+/* Card */
+
+.notification-card {
+  background: white;
+  border-radius: 28px;
+  padding: 10px 20px;
+  box-shadow:
+    0 4px 20px rgba(0,0,0,0.06);
+}
+
+.notification-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 22px 0;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.icon {
+  width: 55px;
+  height: 55px;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+
+.pink {
+  background: #ffd3e0;
+}
+
+.yellow {
+  background: #fff2b5;
+}
+
+.purple {
+  background: #e3d5ff;
+}
+
+.notification-item h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.notification-item p {
+  margin-top: 5px;
+  color: #777;
+  font-size: 14px;
+}
+
+.divider {
+  height: 1px;
+  background: #eee;
+}
+
+/* Info */
+
+.info-box {
+  margin-top: 25px;
+  background: #fff;
+  padding: 18px;
+  border-radius: 20px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  box-shadow:
+    0 4px 20px rgba(0,0,0,0.05);
+}
+
+.info-box i {
+  font-size: 22px;
+  color: #ff4f87;
+}
+
+.info-box p {
+  margin: 0;
+  color: #666;
+}

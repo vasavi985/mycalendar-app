@@ -1,0 +1,108 @@
+<div class="today-page">
+
+  <div class="content">
+
+    <!-- Top Icons -->
+    <div class="top-icons">
+
+      <i
+        class="bi bi-gear settings-icon"
+        routerLink="/settings">
+      </i>
+
+      <i
+        class="bi bi-bell"
+        routerLink="/notifications">
+      </i>
+
+    </div>
+
+    <!-- Period Section -->
+    <div class="period-card">
+
+      <p class="period-title">
+        {{ title }}
+      </p>
+
+      <h1>
+        {{ periodDay }}
+      </h1>
+
+      <p class="date-text">
+        {{ nextPeriod }} - Next Period
+      </p>
+
+      <button
+        class="period-btn"
+        (click)="goToPeriodEdit()"
+      >
+
+        {{
+          cycleDay <= periodLength
+          ? 'Period Ends'
+          : 'Period Starts'
+        }}
+
+      </button>
+
+    </div>
+
+    <!-- Cards -->
+    <div class="cards">
+
+      <!-- Cycle Card -->
+      <div class="small-card cycle-card">
+
+        <h3>
+          Cycle Day
+        </h3>
+
+        <div class="circle">
+
+          <h1>
+            {{ cycleDay }}
+          </h1>
+
+        </div>
+
+      </div>
+
+      <!-- Fertile Card -->
+      <div class="small-card fertile-card">
+
+        <h2>
+          {{ fertileDate }}
+        </h2>
+
+        <p>
+          Next Fertile
+        </p>
+
+      </div>
+
+    </div>
+
+    <!-- Feeling Card -->
+    <div class="feeling-card">
+
+      <h2>
+        How are you feeling today?
+      </h2>
+
+      <p>
+        Track symptoms and mood
+      </p>
+
+      <button
+        class="log-btn"
+        routerLink="/add-entry"
+      >
+        Log Today
+      </button>
+
+    </div>
+
+  </div>
+
+</div>
+<app-bottom-navbar></app-bottom-navbar>

@@ -1,0 +1,36 @@
+<div class="login-page">
+
+  <div class="login-card">
+
+    <h1>MyCalendar</h1>
+
+    <p>
+      Period Tracking App
+    </p>
+
+    <input
+      type="email"
+      placeholder="Email"
+      [(ngModel)]="email"
+    />
+
+    <input
+      type="password"
+      placeholder="Password"
+      [(ngModel)]="password"
+    />
+
+    <button (click)="login()">
+      Login
+    </button>
+
+    <button
+      class="register-btn"
+      (click)="register()"
+    >
+      Register
+    </button>
+
+  </div>
+
+</div>

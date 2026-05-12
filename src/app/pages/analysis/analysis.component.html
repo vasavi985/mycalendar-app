@@ -1,0 +1,91 @@
+<div class="analysis-page">
+
+  <h1 class="page-title">
+    Analysis
+  </h1>
+
+  <p class="subtitle">
+    Track your menstrual health
+  </p>
+
+  <!-- Overview Cards -->
+  <div class="top-cards">
+
+    <div class="card pink">
+      <h2>{{ cycleDay }}</h2>
+      <p>Current Day</p>
+    </div>
+
+    <div class="card purple">
+      <h2>{{ periodLength }}</h2>
+      <p>Period Days</p>
+    </div>
+
+    <div class="card yellow">
+      <h2>{{ cycleLength }}</h2>
+      <p>Cycle Length</p>
+    </div>
+
+  </div>
+
+  <!-- Main Analysis -->
+  <div class="analysis-card">
+
+    <h2>
+      Cycle Statistics
+    </h2>
+
+    <div class="stats-grid">
+
+      <div class="stat-box">
+        <span class="label">
+          Last Period
+        </span>
+
+        <h3>
+          {{ lastPeriodDate }}
+        </h3>
+      </div>
+
+      <div class="stat-box">
+        <span class="label">
+          Next Period
+        </span>
+
+        <h3>
+          {{ nextPeriod }}
+        </h3>
+      </div>
+
+      <div class="stat-box">
+        <span class="label">
+          Fertile Day
+        </span>
+
+        <h3>
+          {{ fertileDate }}
+        </h3>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Health Tip -->
+  <div class="tip-card">
+
+    <h3>
+      💡 Health Tip
+    </h3>
+
+    <p>
+      Stay hydrated, eat iron-rich
+      foods, and track symptoms
+      during your cycle.
+    </p>
+
+  </div>
+
+</div>
+
+<app-bottom-navbar>
+</app-bottom-navbar>

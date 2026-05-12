@@ -1,0 +1,47 @@
+.login-page{
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:#f5eefb;
+}
+
+.login-card{
+  background:white;
+  width:400px;
+  padding:40px;
+  border-radius:30px;
+  box-shadow:0 0 20px rgba(0,0,0,.1);
+}
+
+h1{
+  text-align:center;
+}
+
+p{
+  text-align:center;
+  margin-bottom:30px;
+}
+
+input{
+  width:100%;
+  padding:18px;
+  margin-bottom:20px;
+  border-radius:15px;
+  border:1px solid #ddd;
+}
+
+button{
+  width:100%;
+  padding:18px;
+  border:none;
+  border-radius:20px;
+  background:#ff4f95;
+  color:white;
+  cursor:pointer;
+  margin-top:10px;
+}
+
+.register-btn{
+  background:#7d7cff;
+}

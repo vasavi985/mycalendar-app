@@ -1,0 +1,43 @@
+<div class="period-edit-page">
+
+  <div class="top-bar">
+
+    <i
+      class="bi bi-arrow-left"
+      routerLink="/">
+    </i>
+
+    <h2>May</h2>
+
+    <i class="bi bi-calendar3"></i>
+
+  </div>
+
+  <div class="tip-box">
+    🩸 Tap on date to adjust
+    your period
+  </div>
+
+  <div class="calendar-grid">
+
+    <div
+      class="day"
+      *ngFor="let day of days"
+      [class.selected]="
+        selectedDays.includes(day)
+      "
+      (click)="selectDay(day)"
+    >
+      {{ day }}
+    </div>
+
+  </div>
+
+  <button
+    class="save-btn"
+    (click)="savePeriod()"
+  >
+    Save
+  </button>
+
+</div>

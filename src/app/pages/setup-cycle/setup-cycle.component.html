@@ -1,0 +1,53 @@
+<div class="setup-page">
+
+  <div class="setup-card">
+
+    <h1>Setup Your Cycle</h1>
+    <p class="subtitle">
+      Tell us about your menstrual cycle
+    </p>
+
+    <label>Last Period Start Date</label>
+    <input
+      type="date"
+      [(ngModel)]="lastPeriodDate"
+    />
+
+    <label>Period Length (days)</label>
+    <select [(ngModel)]="periodLength">
+      <option value="3">3 Days</option>
+      <option value="4">4 Days</option>
+      <option value="5">5 Days</option>
+      <option value="6">6 Days</option>
+      <option value="7">7 Days</option>
+    </select>
+
+    <label>Cycle Length (days)</label>
+    <select [(ngModel)]="cycleLength">
+      <option value="21">21 Days</option>
+      <option value="22">22 Days</option>
+      <option value="23">23 Days</option>
+      <option value="24">24 Days</option>
+      <option value="25">25 Days</option>
+      <option value="26">26 Days</option>
+      <option value="27">27 Days</option>
+      <option value="28">28 Days</option>
+      <option value="29">29 Days</option>
+      <option value="30">30 Days</option>
+      <option value="31">31 Days</option>
+      <option value="32">32 Days</option>
+      <option value="33">33 Days</option>
+      <option value="34">34 Days</option>
+      <option value="35">35 Days</option>
+    </select>
+
+     <button
+  type="button"
+  (click)="saveCycle()">
+
+  Continue
+
+</button>
+  </div>
+
+</div>
