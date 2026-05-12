@@ -1,27 +1,64 @@
-# MycalendarApp
+# MyCalendar Tracker
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.2.
+A smart menstrual cycle tracking web app built using Angular 2+, TypeScript, Firebase Authentication, Firestore, and Firebase Hosting.
 
-## Development server
+## Live Demo
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+🔗 https://mycalendar-tracker.web.app
 
-## Code scaffolding
+## Features
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Period tracking
+- Fertile window prediction
+- Ovulation day detection
+- Calendar view
+- Self-care section
+- Analysis dashboard
+- Firebase Authentication
 
-## Build
+## Screenshots
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Login Page
+![Login](mycalendar-app%20photos/login%20page.png)
 
-## Running unit tests
+### Setup Cycle
+![Setup Cycle](mycalendar-app%20photos/setupcycle.png)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Today Page
+![Today](mycalendar-app%20photos/todaypage.png)
 
-## Running end-to-end tests
+### Calendar Page
+![Calendar](mycalendar-app%20photos/calendar.png)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Self Care Page
+![Self Care](mycalendar-app%20photos/selfcare.png)
 
-## Further help
+### Notifications Page
+![Notifications](mycalendar-app%20photos/notifications.png)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Analysis Page
+![Analysis](mycalendar-app%20photos/analysis.png)
+
+### Settings Page
+![Settings](mycalendar-app%20photos/settings.png)
+
+## Tech Stack
+
+- Angular 2+
+- TypeScript
+- Firebase
+- HTML
+- CSS
+
+## Installation
+
+```bash
+git clone https://github.com/vasavi985/mycalendar-app.git
+cd mycalendar-app
+npm install
+ng serve
+```
+
+## License
+
+MIT License
